@@ -1,0 +1,19 @@
+{
+  "name": "mycity",
+  "version": "1.0.0",
+  "description": "A wensite for travel around Milano",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valenzanico/mymilan.git"
+  },
+  "author": "Nicolo Valenza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valenzanico/mymilan/issues"
+  },
+  "homepage": "https://github.com/valenzanico/mymilan#readme"
+}
