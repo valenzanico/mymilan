@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMilan</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./dist/leaflet.css">
+    <script src="./dist/leaflet-src.js" integrity="sha512-I5Hd7FcJ9rZkH7uD01G3AjsuzFy3gqz7HIJvzFZGFt2mrCS4Piw9bYZvCgUE0aiJuiZFYIJIwpbNnDIM6ohTrg=="></script>
+</head>
+
+<body>
+    <div id="root">
+        <div id="map"></div>
+        <aside>
+            <input type="checkbox" name="bus" id="check-bus"><label for="check-bus">Bus</label><br>
+            <input type="checkbox" name="filobus" id="check-filobus"><label for="check-filobus">Filobus</label><br>
+            <input type="checkbox" name="tram" id="check-tram"><label for="check-tram">Tram</label><br>
+            <input type="checkbox" name="metro" id="check-metro"><label for="check-metro">Metro</label><br>
+            <input type="checkbox" name="suburban_train" id="check-suburban-train"><label for="check-suburban-train">Linee suburbane</label>
+        </aside>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>

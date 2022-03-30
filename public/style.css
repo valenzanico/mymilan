@@ -1,0 +1,28 @@
+html,
+body,
+#root,
+#map {
+    height: 95%;
+    width: 100vw;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+tram {
+    color: #e37a02;
+}
+
+bus {
+    color: #013b17;
+}
+
+filobus {
+    color: #023299;
+}
+
+metro {
+    color: #620380;
+}
