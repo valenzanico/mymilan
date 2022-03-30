@@ -124,7 +124,7 @@ async function downloadLane(type = "all") {
         for (let index in type) {
 
             let key = type[index];
-            console.log(key)
+
             if (apis[key] !== null) {
                 let response = await fetch(apis[key].url) // fetch the data
                 let data = await response.json(); // parse the data\
@@ -152,10 +152,7 @@ function updateLayer() {
     for (let key in apis) {
 
         if (apis[key] !== null) {
-            console.log(key);
-            console.log(apis[key].are_showed === false);
-            console.log(apis[key].layer !== null);
-            console.log(apis[key].show === true);
+
             if (apis[key].are_showed === false && apis[key].layer !== null && apis[key].show === true) {
                 apis[key].are_showed = true;
                 showLane(key);
